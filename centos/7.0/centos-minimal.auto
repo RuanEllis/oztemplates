@@ -5,7 +5,7 @@ firstboot --disable
 lang en_GB
 skipx
 network --device eth0 --bootproto dhcp
-rootpw sqrt(s*w)
+rootpw 
 firewall --disabled
 authconfig --enableshadow --enablemd5
 selinux --disabled
